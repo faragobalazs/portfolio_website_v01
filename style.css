@@ -1,0 +1,166 @@
+.header-container {
+  background-color: #6dbfb0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.laptop {
+  width: auto;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .laptop {
+    width: 500px;
+  }
+}
+
+@media (max-width: 400px) {
+  .laptop {
+    width: 200px;
+  }
+}
+
+.profile-picture-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.profile-picture {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.text-container > div {
+  width: 1010px;
+}
+
+.texts {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.footer-text {
+  padding-top: 20px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.languages-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ebebeb;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+  border-top: 1px solid #dfdcdc;
+  border-bottom: 1px solid #dfdcdc;
+}
+
+@media (max-width: 600px) {
+  .languages-container {
+    flex-direction: column;
+    justify-self: center;
+  }
+}
+
+.logos {
+  height: 80px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6dbfb0;
+  height: 150px;
+}
+
+.github-logo {
+  height: 80px;
+  padding-top: 20px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.album.bg-body-tertiary {
+  background-color: white !important;
+  margin-bottom: 80px;
+}
+
+.hobbies {
+  margin-top: 80px;
+}
+
+.btn-outline-secondary {
+  background-color: #6dbfb0;
+  color: white;
+  border: 0px;
+}
+
+.hobbies-container {
+  display: grid;
+  grid-template-columns: 200px 300px;
+  grid-template-rows: 100px 100px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .hobbies-container {
+    grid-template-columns: 200px auto;
+  }
+}
+
+.grd {
+  border: 0px solid black;
+}
+
+#one {
+  height: 100px;
+}
+
+#three {
+  width: 150px;
+}
+
+.berry {
+  height: 100%;
+  width: 100%;
+}
+
+.pygame {
+  height: 100%;
+  width: 100%;
+}
